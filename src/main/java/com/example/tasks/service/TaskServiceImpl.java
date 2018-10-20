@@ -2,7 +2,9 @@ package com.example.tasks.service;
 
 import com.example.tasks.domain.Task;
 import com.example.tasks.repository.TaskRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TaskServiceImpl implements TaskService {
 
     private TaskRepository taskRepository;
